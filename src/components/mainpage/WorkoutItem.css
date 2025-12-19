@@ -1,0 +1,48 @@
+/* WorkoutItem.css */
+.WorkoutItem {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #f9f9f9;
+    transition: 0.2s;
+  }
+  
+  .WorkoutItem:hover {
+    background: #f0f0f0;
+  }
+  
+  .checkbox_col {
+    margin-right: 10px;
+  }
+  
+  .title_col {
+    flex: 1;
+    font-size: 1rem;
+  }
+  
+  .title_col.done {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .date_col {
+    margin-right: 15px;
+    font-size: 0.85rem;
+    color: #666;
+  }
+  
+  .btn_col button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn_col button:hover {
+    background-color: #c0392b;
+  }

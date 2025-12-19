@@ -1,0 +1,17 @@
+.CalendarPage {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .calendar-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .highlight {
+    background: #4caf50;
+    color: white !important;
+    border-radius: 50%;
+  }
+  

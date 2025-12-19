@@ -1,0 +1,50 @@
+/* src/components/VideoCard.css */
+.video-card {
+    width: 300px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .video-card iframe {
+    width: 100%;
+    height: 170px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .video-card h4 {
+    margin: 8px 0 4px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .video-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .video-card button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .video-card button:hover {
+    background: #43a047;
+  }

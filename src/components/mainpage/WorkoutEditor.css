@@ -1,0 +1,40 @@
+/* WorkoutEditor.css */
+.WorkoutEditor {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+  }
+  
+  .WorkoutEditor h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .editor_wrapper {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .editor_wrapper input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .editor_wrapper button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .editor_wrapper button:hover {
+    background-color: #45a049;
+  }
